@@ -1,0 +1,119 @@
+body{
+    background-image: url("./images/clear.jpg");
+    width: 100%; 
+    height: 100%;
+  
+ }
+ 
+ #main{
+     /* background-color:rgba(0, 0, 0, 0.6); */
+     /* display: inline-block; */
+     display: flex;
+     background: rgba(207, 205, 205, 0.6);
+     /* background-color: transparent; */
+     min-height: 200px;
+     /* height: 800px; */
+      /* width: 1200px;  */
+     min-width: none;
+    
+     margin-bottom: 20px;
+     border-radius: 15px;
+     margin-left: 200px;
+     margin-right: 190px;
+     margin-top: 150px;
+ 
+ }
+ 
+ #forecast,weather{
+     background-color: transparent;
+     position: absolute;
+     min-width: none;
+ }
+ #Regiondropdown{
+     height: 50px;
+     width: 200px;
+     border-radius: 15px;
+     margin-left: 900px;
+     margin-top: 20px;
+ 
+     transition: transform 0.2s;
+     flex-wrap: wrap;
+   
+     position: absolute;
+     display: flex;
+     background-color: #f2f2f2;
+    
+ }
+ 
+ #country{
+     font-size: 100px;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-style: oblique;
+     color: white;
+     margin-left: 20px;
+ }
+ 
+ #region{
+     font-size: 30px;
+     
+     margin-left: 40px;
+     
+     width: 50px;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-style: oblique;
+     color: white;
+ }
+ 
+ #weatherCondition{
+     font-size: 40px;
+     color: white;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-style: initial;
+     margin-left: 230px;
+    
+     
+ }
+ #temp3{
+     font-size: 30px;
+     color: white;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-style: initial;
+     margin-left: 400px;
+     position: relative;
+     padding-bottom: 20px;
+ }
+ #temp1{
+     font-size: 60px;
+     margin-left: 150px;
+     position: relative;
+     
+ }
+ #temp{
+     font-size: 30px;
+     color: white;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-style: initial;
+     margin-left: 400px;
+     position: relative;
+     
+ }
+ 
+ table{
+     border: 1px solid;
+     border-collapse: collapse;
+     width: 75%;
+     margin-left: 200px;
+     background-color: rgba(207, 205, 205, 0.6);
+     margin-bottom: 20px;
+     border-radius: 15px;
+   }
+   tr,td {
+     border: 1px solid;
+     border-collapse: collapse;
+     text-align: center;
+     padding: 20px;
+    
+   }
+   tr:nth-child(even) {background-color: #e6e3e3;}
+ 
+ 
